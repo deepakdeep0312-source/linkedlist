@@ -8,6 +8,7 @@ class main{
             heap.add(sc.nextInt());
             heapifyup(heap,i);
         }
+        System.out.print(heap);
     }
     public static void heapifyup(List<Integer> heap,int i){
         while(i!=0 && heap.get(i)>heap.get((i-1)/2)){
